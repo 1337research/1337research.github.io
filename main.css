@@ -18,16 +18,20 @@ ul {
     padding: 0;
 }
 
-a {
+li a {
     padding: 1rem 1.5rem;
     border: solid 1px #FFFFFF;
     color: #ffffff;
     text-decoration: none;
 }
 
-a:hover {
+li a:hover {
     color: darkred !important;
     border-color: darkred !important;
+}
+
+a.link:hover {
+    filter: brightness(0) saturate(100%) invert(9%) sepia(87%) saturate(5365%) hue-rotate(3deg) brightness(92%) contrast(115%);
 }
 
 #main {
