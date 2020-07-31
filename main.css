@@ -35,6 +35,10 @@ a.link:hover {
     filter: brightness(0) saturate(100%) invert(9%) sepia(87%) saturate(5365%) hue-rotate(3deg) brightness(92%) contrast(115%);
 }
 
+a.link-white {
+    filter: invert(100%);
+}
+
 #main {
     padding: 0rem 4rem;
 }
